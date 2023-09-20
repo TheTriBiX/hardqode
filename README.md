@@ -1,6 +1,6 @@
 ### API Handlers
-#request: GET api/v1/lessonslist/
-#response: JSON
+# request: GET api/v1/lessonslist/
+# response: JSON
 {
     "data": [
         {
@@ -12,8 +12,8 @@
 
 
 
-#request: GET api/v1/lessonslist/<int:pk>/
-#response: JSON
+# request: GET api/v1/lessonslist/<int:pk>/
+# response: JSON
 [
 	"data": [
         {
@@ -27,8 +27,8 @@
 ...
 ]
 
-#request: GET api/v1/stats/
-#response: JSON
+# request: GET api/v1/stats/
+# response: JSON
 [
 	"data": [
         {
